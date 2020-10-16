@@ -16,3 +16,5 @@ Instructions:
 - Upload convert_db.py to your server and run it. If you don't receive an error, the conversion was successful, congratulations!
 If you do receive an error, start de-bugging and fork your changes or submit a pull request.
 
+* MSSQL to sqlite
+ python3 convert_db_sqlite.py -c default.ini -i MY_TABLE -m "references=[references]" > /dev/shm/dump.txt
